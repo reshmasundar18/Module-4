@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM: 
 To write a Python program to take the radius from the user and find the area of a circle using the class name `umbrella` and function name `rain`.
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Create a class named `umbrella`.  
@@ -25,19 +25,21 @@ To write a Python program to take the radius from the user and find the area of 
 
 ---
 
-### PROGRAM
-
+### PROGRAM:
 ```
-
-
-
+import math
+class umbrella:
+    def rain(self,r):
+        res=math.pi * r * r
+        print(f"Area of circle: {res:.2f}")
+r=int(input())
+u=umbrella()
+u.rain(r)
 ```
+### OUTPUT:
+<img width="798" height="173" alt="image" src="https://github.com/user-attachments/assets/bef53fae-8848-418a-a15a-2670e81fe6a9" />
 
-### OUTPUT
-
-
-
-### RESULT
-
+### RESULT:
+Thus the python program for calculating the area of a circle was implemented and executed successfully.
 
 
