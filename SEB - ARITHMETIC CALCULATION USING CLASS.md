@@ -3,7 +3,7 @@
 
 ---
 
-### AIM  
+### AIM:  
 To write a Python program to perform addition and division operations using a class. The class should be named `Saveetha`, and the function names should be `setvalues` (to set `a` and `b` values), `add`, and `div`. The program should handle the following cases:  
 - `choice 1` → Perform addition  
 - `choice 2` → Perform division  
@@ -12,7 +12,7 @@ To write a Python program to perform addition and division operations using a cl
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Create a class `Saveetha`.  
@@ -32,14 +32,25 @@ To write a Python program to perform addition and division operations using a cl
 
 ---
 
-### PROGRAM
-
+### PROGRAM:
+```
+from collections import defaultdict
+def create_file(file_path, content):
+    with open(file_path, 'w') as file:
+        file.write(content)
+def char_frequency(file_path):
+    char_count=defaultdict(int)
+    with open(file_path, 'r')as file:
+        content=file.read()
+        for char in content:
+           char_count[char]+=1
+    return char_count
 ```
 
+### OUTPUT:
+<img width="815" height="258" alt="image" src="https://github.com/user-attachments/assets/31474a11-a38f-441f-ae48-f7247ed920d3" />
 
 
-```
+### RESULT:
+Thus a Python program that reads a file and counts the frequency of each character in it are verified.
 
-### OUTPUT
-
-### RESULT
