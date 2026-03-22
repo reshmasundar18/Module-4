@@ -3,12 +3,12 @@
 
 ---
 
-### AIM  
+### AIM:  
 To write a Python program to print the size of a dictionary using `getsizeof()` from the `sys` module.
 
 ---
 
-### ALGORITHM
+### ALGORITHM:
 
 1. Begin the program.  
 2. Import the `sys` module to use the `getsizeof()` function.  
@@ -19,18 +19,23 @@ To write a Python program to print the size of a dictionary using `getsizeof()` 
 
 ---
 
-### PROGRAM
+### PROGRAM:
+```
+from sys import getsizeof
+dic1 = {"A": 1, "B": 2, "C": 3}
+dic2 = {"Geek1": "Raju", "Geek2": "Nikhil", "Geek3": "Deepanshu"}
+dic3 = {1: "Lion", 2: "Tiger", 3: "Fox", 4: "Wolf"}
+result1 = getsizeof(dic1)
+result2 = getsizeof(dic2)
+result3 = getsizeof(dic3)
+print("Size of dic1: ", result1, "bytes", sep='')
+print("Size of dic2: ", result2, "bytes", sep='')
+print("Size of dic3: ", result3, "bytes", sep='')
 
 ```
-#Reg.No
-#Name
-#Add Your Code Here
 
+### OUTPUT:
+<img width="818" height="250" alt="image" src="https://github.com/user-attachments/assets/9d9bc68f-c369-4377-9463-28320cc1d4a4" />
 
-
-```
-
-### OUTPUT
-
-
-### RESULT
+### RESULT:
+Thus, a Python program to print the size of a dictionary using getsizeof() from the sys module are verified.
